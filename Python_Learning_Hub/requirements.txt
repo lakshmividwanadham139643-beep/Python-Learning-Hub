@@ -1,0 +1,17 @@
+# Python Learning Hub — dependencies
+#
+# Core app (GUI, database, hashing) uses only the Python standard library —
+# tkinter, sqlite3, hashlib, os, json, csv, datetime — so it runs with a
+# plain Python install and needs NOTHING from this file to launch.
+#
+# The lines below are only needed if you want to run the Module 7
+# "Live Joke Fetcher" mini-app and the Pandas/Matplotlib code examples
+# in Module 7's topics.
+
+requests>=2.31.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Pillow renders the PNG certificates (logo, borders, text). Without it,
+# certificates still generate, just as plain .txt files instead.
+Pillow>=10.0.0
